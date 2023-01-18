@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  shift: MyString
+  date: 2023-01-18
+  status: MyString
+  workers: one
+
+two:
+  shift: MyString
+  date: 2023-01-18
+  status: MyString
+  workers: two

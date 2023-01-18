@@ -1,0 +1,19 @@
+<%= form_with model: @worker do |form| %>
+  <div>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %>
+  </div>
+  <% @worker.errors.full_messages_for(:name).each do |message| %>
+    <div><%= message %></div>
+  <% end %>
+
+  <div>
+    <%= form.label :age %><br>
+    <%= form.select :age%>
+  </div>
+ 
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
